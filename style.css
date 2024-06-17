@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.validator {
+  padding-right: 0.5rem;
+}
+.validator .bi-check-lg {
+  color: green;
+}
+.validator .bi-x-lg {
+  color: red;
+}
+.input-group-text {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.input-group-text:hover {
+  color: var(--bs-blue);
+}
+.list-group {
+user-select: none;
+}
